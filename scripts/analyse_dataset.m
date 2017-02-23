@@ -1,0 +1,10 @@
+list = 'list.txt';
+list_fid = fopen(list,'r');
+C = textscan(list_fid,'%s %d %d');
+fclose(list_fid);
+label = double(C{3});
+hist(label,6);
+fprintf('all-0 baseline MSE:%f\r\n',mean(label.^2));
+fprintf('all-0 baseline MAE:%f\r\n',mean(label));
+fprintf('all-mean baseline MSE:%f\r\n',mean((label - mean(label)).^2));
+fprintf('all-mean baseline MAE:%f\r\n',mean(abs(label - median(label))));
