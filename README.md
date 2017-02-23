@@ -40,4 +40,4 @@ This code is distributed under MIT LICENSE
 #Contact
 
 Feng Wang feng.wff(at)gmail.com,
-Replace (at) with @.
+please replace (at) with @.
