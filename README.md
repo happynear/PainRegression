@@ -33,7 +33,7 @@ It takes about 4-6 hours to train all 25-fold cross validation.
 
 2. Get the performance by [scripts/get_accuracy.m](https://github.com/happynear/PainRegression/blob/master/scripts/get_accuracy.m).
 
-We suggest further works to use the new evaluation metrics, wMAE and wMSE proposed in our work. The evaluation codes are in [scripts/get_accuracy.m].
+We suggest and encourage further works to use the new proposed evaluation metrics, **wMAE** and **wMSE**. The evaluation codes are in [scripts/get_accuracy.m](https://github.com/happynear/PainRegression/blob/master/scripts/get_accuracy.m).
 
 #License
 
