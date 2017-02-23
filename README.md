@@ -23,7 +23,7 @@ https://arxiv.org/abs/1702.06925
 
 4. Create list for Caffe's ImageData layer by [scripts/create_list.m](https://github.com/happynear/PainRegression/blob/master/scripts/create_list.m) and [scripts/create_sublist.m](https://github.com/happynear/PainRegression/blob/master/scripts/create_sublist.m)(For cross-validation).
 
-5. Copy all the folders created by [scripts/create_sublist.m](https://github.com/happynear/PainRegression/blob/master/scripts/create_sublist.m) to prototxt and run `prototxt/run_scripts.cmd`.
+5. Copy all the folders created by [scripts/create_sublist.m](https://github.com/happynear/PainRegression/blob/master/scripts/create_sublist.m) to prototxt and run [prototxt/run_script.cmd](https://github.com/happynear/PainRegression/blob/master/prototxt/run_script.cmd).
 
 It takes about 4-6 hours to train all 25-fold cross validation.
 
