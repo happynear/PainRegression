@@ -45,5 +45,5 @@ This code is distributed under MIT LICENSE
 
 #Contact
 
-Feng Wang feng.wff(at)gmail.com,
+Feng Wang feng.wff(at)gmail.com or xxiang(at)cs.jhu.edu
 please replace (at) with @.
