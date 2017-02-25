@@ -43,6 +43,18 @@ We suggest and encourage further works to use the new proposed evaluation metric
 
 This code is distributed under MIT LICENSE
 
+Citation
+
+```
+@article{Wang2017Pain,
+Author = {Feng Wang and Xiang Xiang and Chang Liu and Trac D. Tran and Austin Reiter and Gregory D. Hager and Harry Quon and Jian Cheng and Alan L. Yuille},
+Title = {Transferring Face Verification Nets To Pain and Expression Regression},
+Year = {2017},
+Eprint = {arXiv:1702.06925},
+Doi = {10.13140/RG.2.2.20841.49765},
+}
+```
+
 #Contact
 
 Feng Wang [feng.wff(at)gmail.com] or Xiang Xiang [xxiang(at)cs.jhu.edu]
