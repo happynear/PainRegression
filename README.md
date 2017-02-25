@@ -43,8 +43,9 @@ We suggest and encourage further works to use the new proposed evaluation metric
 
 This code is distributed under MIT LICENSE
 
-Citation
+#Citation
 
+If you find these codes useful in your research, please cite
 ```
 @article{Wang2017Pain,
 Author = {Feng Wang and Xiang Xiang and Chang Liu and Trac D. Tran and Austin Reiter and Gregory D. Hager and Harry Quon and Jian Cheng and Alan L. Yuille},
