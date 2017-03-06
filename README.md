@@ -37,7 +37,13 @@ It takes about 4-6 hours to train all 25-fold cross validation.
 
 2. Get the performance by [./scripts/get_accuracy.m](https://github.com/happynear/PainRegression/blob/master/scripts/get_accuracy.m).
 
-We suggest and encourage further works to use the new proposed evaluation metrics, **wMAE** and **wMSE**. The evaluation codes are in [./scripts/get_accuracy.m](https://github.com/happynear/PainRegression/blob/master/scripts/get_accuracy.m).
+We encourage future works to use the new proposed evaluation metrics, **wMAE** and **wMSE**. The evaluation codes are in [./scripts/get_accuracy.m](https://github.com/happynear/PainRegression/blob/master/scripts/get_accuracy.m).
+
+#EmotionNet Challenge
+
+The model definition files used in [EmotionNet Challenge](http://cbcsl.ece.ohio-state.edu/EmotionNetChallenge/index.html) are provided in [./prototxt/EmotionNet](https://github.com/happynear/PainRegression/tree/master/prototxt/EmotionNet). Besides the details described in our submitted paper https://arxiv.org/abs/1702.06925, we further used a technique called `mirror face` to encode the features both from frontal face and mirror face, end-to-end. The details and analysis will be described in a comming journal paper.
+
+To try the `mirror face` technique, you need to compile my Caffe (https://github.com/happynear/caffe-windows/tree/ms), or transplant the `flip_layer` to your own Caffe.
 
 #License
 
