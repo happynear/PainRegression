@@ -41,7 +41,7 @@ We encourage future works to use the new proposed evaluation metrics, **wMAE** a
 
 #EmotionNet Challenge
 
-The model definition files used in [EmotionNet Challenge](http://cbcsl.ece.ohio-state.edu/EmotionNetChallenge/index.html) are provided in [./prototxt/EmotionNet](https://github.com/happynear/PainRegression/tree/master/prototxt/EmotionNet). Besides the details described in our submitted paper https://arxiv.org/abs/1702.06925, we further used a technique called `mirror face` to encode the features both from frontal face and mirror face, end-to-end. The details and analysis will be described in a comming journal paper.
+The model definition files used in [EmotionNet Challenge](http://cbcsl.ece.ohio-state.edu/EmotionNetChallenge/index.html) are provided in [./prototxt/EmotionNet](https://github.com/happynear/PainRegression/tree/master/prototxt/EmotionNet). Besides the details described in our submitted paper, we further used a novel technique called `mirror face` to encode the features both from frontal face and mirror face, in an end-to-end fashion. The details and analysis will be described in a comming journal paper.
 
 To try the `mirror face` technique, you need to compile my Caffe (https://github.com/happynear/caffe-windows/tree/ms), or transplant the `flip_layer` to your own Caffe.
 
