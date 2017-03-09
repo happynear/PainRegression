@@ -3,10 +3,10 @@ mse = zeros(25,1);
 pearson = zeros(25,1);
 icc = zeros(25,1);
 for i=1:25
-%     mae(i) = mean(abs(ground_truth{i}- predict{i}));
-%     mse(i) = mean((predict{i}-ground_truth{i}).^2);
-    mae(i) = mean(abs(ground_truth{i}- zeros(size(predict{i}))));
-    mse(i) = mean((zeros(size(predict{i}))-ground_truth{i}).^2);
+    mae(i) = mean(abs(ground_truth{i}- predict{i}));
+    mse(i) = mean((predict{i}-ground_truth{i}).^2);
+%     mae(i) = mean(abs(ground_truth{i}- zeros(size(predict{i}))));
+%     mse(i) = mean((zeros(size(predict{i}))-ground_truth{i}).^2);
     cov_gp = cov(ground_truth{i}, predict{i});
     pearson(i) = cov_gp(1,2) / sqrt(cov_gp(1,1) * cov_gp(2,2));
     icc(i) = 2 * cov_gp(1,2) / (cov_gp(1,1) + cov_gp(2,2));
@@ -30,10 +30,10 @@ for i=1:25
     for j=1:length(label_weight)
         label_weight(j) = weight_map(ground_truth{i}(j));
     end;
-%     wmae(i) = mean(abs(ground_truth{i}- predict{i}) .* label_weight);
-%     wmse(i) = mean((predict{i}-ground_truth{i}).^2 .* label_weight);
-    wmae(i) = mean(abs(ground_truth{i}- zeros(size(predict{i}))) .* label_weight);
-    wmse(i) = mean((zeros(size(predict{i}))-ground_truth{i}).^2 .* label_weight);
+    wmae(i) = mean(abs(ground_truth{i}- predict{i}) .* label_weight);
+    wmse(i) = mean((predict{i}-ground_truth{i}).^2 .* label_weight);
+%     wmae(i) = mean(abs(ground_truth{i}- zeros(size(predict{i}))) .* label_weight);
+%     wmse(i) = mean((zeros(size(predict{i}))-ground_truth{i}).^2 .* label_weight);
 end;
 fprintf('weighted mean MAE:%f\r\n', mean(wmae));
 fprintf('weighted mean MSE:%f\r\n', mean(wmse));
