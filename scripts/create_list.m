@@ -30,7 +30,8 @@ for i=1:length(identity_list)
             if k<=3 || k>=length(image_list)-2
                 mask = 0;
             end;
-            fprintf(list_fid,'%s %d %d %d\r\n', fullfile(identity_list(i).name, subset_list(j).name, image_list(k).name), uint8(i-1), lut(uint8(label) + 1), mask);
+            fprintf(list_fid,'%s %d\n', fullfile(identity_list(i).name, subset_list(j).name, image_list(k).name), lut(uint8(label) + 1));
+            % fprintf(list_fid,'%s %d %d %d\r\n', fullfile(identity_list(i).name, subset_list(j).name, image_list(k).name), uint8(i-1), lut(uint8(label) + 1), mask);
         end;
     end;
     video_index{i} = sub_video_index;
