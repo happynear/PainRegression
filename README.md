@@ -53,12 +53,12 @@ This code is distributed under MIT LICENSE
 
 If you find these codes useful in your research, please cite
 ```
-@article{Wang2017Pain,
-Author = {Feng Wang and Xiang Xiang and Chang Liu and Trac D. Tran and Austin Reiter and Gregory D. Hager and Harry Quon and Jian Cheng and Alan L. Yuille},
-Title = {Transferring Face Verification Nets To Pain and Expression Regression},
-Year = {2017},
-Eprint = {arXiv:1702.06925},
-Doi = {10.13140/RG.2.2.20841.49765},
+@inproceedings{wang2017regularizing,
+  title={Regularizing Face Verification Nets For Pain Intensity Regression},
+  author={Wang, Feng and Xiang, Xiang and Liu, Chang and Tran, Trac D and Reiter, Austin and Hager, Gregory D and Quon, Harry and Cheng, Jian and Yuille, Alan L},
+  booktitle={IEEE International Conference on Image Processing 2017},
+  year={2017},
+  organization={IEEE Xplore}
 }
 ```
 
