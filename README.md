@@ -1,6 +1,6 @@
 # PainRegression
 
-Transferring Face Verification Nets To Pain and Expression Regression
+Regularizing Face Verification Nets For Pain Intensity Regression
 
 https://arxiv.org/abs/1702.06925
 
