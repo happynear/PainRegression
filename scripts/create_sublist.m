@@ -6,7 +6,7 @@ folder_map = containers.Map;
 person_id = zeros(length(C{1}),1);
 
 for i=1:length(C{1})
-    path_split = strsplit(C{1}{i},'\');
+    path_split = strsplit(C{1}{i},{'\','/'});
     if ~isKey(folder_map,path_split{1})
         folder_map(path_split{1}) = length(folder_map.keys) + 1;
     end;
